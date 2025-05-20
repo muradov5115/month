@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 140px;
+    border-bottom: 2px solid #dedbdb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 148px;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.lang h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.form{
+    width: 650px;
+    height: 786px;
+    border: 1px solid #dedbdb;
+    margin: 46px auto;
+    border-radius: 50px;
+    padding: 66px 53px 36px 64px;
+}
+.nav-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.exit h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #f0400f;
+    text-align: center;
+    margin-top: 127px;
+}
+.form-h1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0e0d5d;
+    text-align: center;
+    margin-top: 127px;
+}
+.vibor{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 11px;
+}
+.element{
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #757575;
+    transition: all 1s;
+}
+.element:hover{
+    background-color: white;
+    color: black;
+}
+.input{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 51px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.input::placeholder {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.qr-code h2{
+    text-align: center;
+    /* margin: 60px 190px 140px 125px; */
+    align-items: center;
+}
+.div-button button{
+    align-items: center;
+    background-color: #F69E86;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    color: white;
+    justify-content: end;
+}
+.div-button{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin: 50px;
+}
